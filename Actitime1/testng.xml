@@ -1,0 +1,15 @@
+
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="TestBlcok1">
+	  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.actitime.testscript1.CustomerModule"/>
+    </classes>
+  </test> 
+  <test thread-count="5" name="TestBlcok2">
+	  <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.actitime.testscript1.CustomerModule"/>
+    </classes>
+  </test> 
+</suite>
